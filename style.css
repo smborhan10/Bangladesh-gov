@@ -1,0 +1,173 @@
+/*
+Theme Name: Theme Bangla
+Theme URI: https://akkuppi.edu.bd/
+Author: Borhan Uddin
+Author URI: https://akkuppi.edu.bd/
+Description: Test For Akkuti Web Development.
+Tags: blog, one-column, custom-background
+Version: 1.3
+Domain Name: Themebangla
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/images/bg_main.gif) center;
+}
+/* common css end */
+/* header part start */
+
+.header_top{
+    background: #9E5BBA;
+    height: 30px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+}
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.cont_p{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+.top_right a{
+    color: #fff;
+    padding-left: 7px;
+    text-decoration: none;
+}
+/* logo part start */
+.header_bottom{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 70%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.logo_search button{
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px; 
+}
+.logo_right{
+    padding-top: 30px;
+}
+.logo1{
+    border-right: 1px solid #ddd;
+    padding-right: 7px;
+    margin-right: 7px;
+    height: 50px;
+}
+.logo2 p{
+    height: 10px;
+}
+.nav-item a:hover{
+    background: green;
+    padding: 5px;
+    color: #fff;
+}
+/* logo part end */
+/* header part end */
+/* hero part start */
+.banner img{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider img{
+    height: 300px;
+    padding: 10px 0;
+}
+.list h5{
+    font-size: 15px;
+    color: #69308f;
+    font-weight: bold;
+}
+.list ul{
+    list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid green;
+}
+.list ul li a:hover{
+    color: green;
+}
+.side_img img{
+    height: 50px;
+}
+form select{
+    width: 75%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #ddd;
+}
+form button{
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #ddd;  
+}
+.side_video h5{
+    background: green;
+    padding: 5px;
+    margin-top: 5px;
+    color: #fff;
+}
+/* hero part end */
+/* Footer part Start */
+.fb_left ul li a{
+    font-size: 12px;
+}
+.fb_left p{
+    font-size: 10px;
+    padding-left: 17px;
+}
+.fb_right p{
+    font-size: 10px;
+}
+footer{
+    border-bottom: 3px solid purple;
+}
+/* Footer part end */
+.menu-item{
+    padding-right: 25px;
+}
+.menu-item a{
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    padding: 10px;
+    background-color: chartreuse;
+    color: darkorange;
+}
+.xx li a{
+    color: #9E5BBA;
+}
+.slider img{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
